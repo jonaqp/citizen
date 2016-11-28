@@ -11,6 +11,7 @@ PROJECT_TEMPLATES = [
 ]
 
 env = environ.Env()
+
 SECRET_FILE = str(PROJECT_ROOT.path('security/SECRET.key'))
 try:
     SECRET_KEY = open(SECRET_FILE).read().strip()
