@@ -1,2 +1,0 @@
-django: python manage.py runserver 0.0.0.0:$PORT
-node: node server/server.js
