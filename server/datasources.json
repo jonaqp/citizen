@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "cnvDS": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "",
+    "database": "citizen_db",
+    "password": "postgres",
+    "name": "cnvDS",
+    "user": "postgres",
+    "connector": "postgresql"
+  }
+}

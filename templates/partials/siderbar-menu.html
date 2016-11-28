@@ -1,0 +1,162 @@
+{% load i18n %}
+<div class="sidebar-category sidebar-category-visible">
+    <div class="category-content no-padding">
+        <ul class="navigation navigation-main navigation-accordion">
+
+            <li class="navigation-header"><span>Main</span> <i class="icon-menu" title="Main pages"></i>
+            </li>
+            <li><a href="javascript:void(0)"><i class="icon-home4"></i> <span>Dashboard</span></a></li>
+
+            <li>
+                <a href="#"><i class="icon-grid"></i> <span>{% trans "Administration" %}</span></a>
+                <ul>
+                    <li><a href="{% url 'UnitMeasurement:list' %}">{% trans "UnitMeasurement" %}</a></li>
+
+                    <li><a href="{% url 'VehicleEnrollment:list' %}">{% trans "VehicleEnrollment" %}</a></li>
+                    <li><a href="{% url 'VehicleBrand:list' %}">{% trans "VehicleBrand" %}</a></li>
+                    <li><a href="{% url 'VehicleModel:list' %}">{% trans "VehicleModel" %}</a></li>
+                    <li><a href="{% url 'VehicleFuel:list' %}">{% trans "VehicleFuel" %}</a></li>
+                     <li><a href="{% url 'VehicleInventory:list' %}">{% trans "VehicleInventory" %}</a></li>
+                    <li><a href="{% url 'PurchaseCondition:list' %}">{% trans "PurchaseCondition" %}</a></li>
+
+                    <li><a href="{% url 'ProductBrand:list' %}">{% trans "ProductBrand" %}</a></li>
+                    <li><a href="{% url 'ProductModel:list' %}">{% trans "ProductModel" %}</a></li>
+
+                    <li><a href="{% url 'Currency:list' %}">{% trans "Currency" %}</a></li>
+                    <li><a href="{% url 'ExchangeRate:list' %}">{% trans "ExchangeRate" %}</a></li>
+
+                    <li><a href="{% url 'Service:list' %}">{% trans "Service" %}</a></li>
+                    <li><a href="{% url 'Store:list' %}">{% trans "Store" %}</a></li>
+                    <li><a href="{% url 'Person:list' %}">{% trans "Client" %}</a></li>
+
+                    <li><a href="{% url 'LabourCategory:list' %}">{% trans "Category Labour" %}</a></li>
+                    <li><a href="{% url 'Labour:list' %}">{% trans "Labour" %}</a></li>
+
+                    <li><a href="{% url 'ConsultService:list' %}">{% trans "Consult Service" %}</a></li>
+
+                    <li><a href="{% url 'HandWorkCategory:list' %}">{% trans "Hand Work Category" %}</a></li>
+                    <li><a href="{% url 'HandWork:list' %}">{% trans "Hand Work" %}</a></li>
+
+
+                </ul>
+            </li>
+{#            <li>#}
+{#                <a href="#"><i class="icon-grid"></i> <span>{% trans "Zone" %}</span></a>#}
+{#                <ul>#}
+{#                    <li><a href="{% url 'Zone:list' %}">{% trans "Zone" %}</a></li>#}
+{#                    <li><a href="{% url 'Country:list' %}">{% trans "Country" %}</a></li>#}
+{#                    <li><a href="{% url 'State:list' %}">{% trans "State" %}</a></li>#}
+{#                </ul>#}
+{#            </li>#}
+            <li>
+                <a href="#"><i class="icon-grid"></i> <span>{% trans "Product" %}</span></a>
+                <ul>
+                    <li><a href="{% url 'Category:list' %}">{% trans "Category" %}</a></li>
+                    <li><a href="{% url 'Product:list' %}">{% trans "Product" %}</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="icon-grid"></i> <span>{% trans "Team" %}</span></a>
+                <ul>
+                    <li><a href="{% url 'Module:list' %}">{% trans "Module" %}</a></li>
+                    <li><a href="{% url 'Team:list' %}">{% trans "Team" %}</a></li>
+
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="icon-grid"></i> <span>{% trans "Menu" %}</span></a>
+                <ul>
+                    <li><a href="{% url 'MenuPermissions:list' %}">{% trans "Menu-Permissions" %}</a></li>
+                    <li><a href="{% url 'Menu:list' %}">{% trans "Menu" %}</a></li>
+                    <li><a href="{% url 'MenuItem:list' %}">{% trans "SubMenu" %}</a></li>
+                    <li><a href="{% url 'TeamMenu:list' %}">{% trans "Team Menu" %} </a></li>
+
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="icon-grid"></i> <span>{% trans "Company" %}</span></a>
+                <ul>
+                    <li><a href="{% url 'Organization:list' %}">{% trans "Organization" %}</a></li>
+                    <li><a href="{% url 'Subsidiary:list' %}">{% trans "Subsidiary" %}</a></li>
+                    <li><a href="{% url 'Correlative:list' %}">{% trans "Correlative" %}</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="icon-grid"></i> <span>{% trans "Supplier" %}</span></a>
+                <ul>
+                    <li><a href="{% url 'Supplier:list' %}">{% trans "Supplier" %}</a></li>
+                    <li><a href="{% url 'SupplierSubsidiary:list' %}">{% trans "SupplierSubsidiary" %}</a></li>
+                    <li><a href="{% url 'SupplierProduct:list' %}">{% trans "SupplierProduct" %}</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="icon-grid"></i> <span>{% trans "Vehicles" %}</span></a>
+                <ul>
+                   <li><a href="{% url 'Vehicle:list' %}">{% trans "Vehicles" %}</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#"><i class="icon-grid"></i> <span>{% trans "Customers" %}</span></a>
+                <ul>
+                    <li><a href="{% url 'User:list' %}">{% trans "User" %}</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#"><i class="icon-grid"></i> <span>{% trans "Quotation" %}</span></a>
+                <ul>
+                    <li><a href="{% url 'QuotationStore:list' %}">{% trans "quote providers" %}</a></li>
+                    <li><a href="{% url 'QuotationMaintenance:list' %}">{% trans "quote Maintenance" %}</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="icon-grid"></i> <span>{% trans "Logistics" %}</span></a>
+                <ul>
+                    <li><a href="{% url 'PurchaseOrder:list' %}">{% trans "Purchase order" %}</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="icon-grid"></i> <span>{% trans "Taller" %}</span></a>
+                <ul>
+                    <li><a href="{% url 'ActDeliveryVehicle:list' %}">{% trans "Maintenance Vehicle" %}</a></li>
+                    <li><a href="{% url 'WorkAssignment:list' %}">{% trans "Work Assignment" %}</a></li>
+                    <li><a href="{% url 'MechanicAssignment:list' %}">{% trans "Mechanic Labour" %}</a></li>
+                    <li><a href="{% url 'RequisitionStore:list' %}">{% trans "Requisition Store" %}</a></li>
+
+                </ul>
+            </li>
+{#            <li>#}
+{#                <a href="#"><i class="icon-grid"></i> <span>{% trans Tesoreria" %}</span></a>#}
+{#                <ul>#}
+{#                    <li><a href="components_modals.html">{% trans "Modals" %}</a></li>#}
+{#                </ul>#}
+{#            </li>#}
+{#            <li>#}
+{#                <a href="#"><i class="icon-grid"></i> <span>{% trans "Recursos Humanos" %}</span></a>#}
+{#                <ul>#}
+{#                    <li><a href="components_modals.html">{% trans "Modals" %}</a></li>#}
+{#                </ul>#}
+{#            </li>#}
+{#            <li>#}
+{#                <a href="#"><i class="icon-grid"></i> <span>{% trans "Operaciones" %}</span></a>#}
+{#                <ul>#}
+{#                    <li><a href="components_modals.html">{% trans "Modals" %}</a></li>#}
+{#                </ul>#}
+{#            </li>#}
+{#            <li>#}
+{#                <a href="#"><i class="icon-grid"></i> <span>{% trans "Facturacion" %}</span></a>#}
+{#                <ul>#}
+{#                    <li><a href="components_modals.html">{% trans "Modals" %}</a></li>#}
+{#                </ul>#}
+{#            </li>#}
+{#            <li>#}
+{#                <a href="#"><i class="icon-grid"></i> <span>{% trans "Reportes" %}</span></a>#}
+{#                <ul>#}
+{#                    <li><a href="components_modals.html">{% trans "Modals" %}</a></li>#}
+{#                </ul>#}
+{#            </li>#}
+
+        </ul>
+    </div>
+</div>

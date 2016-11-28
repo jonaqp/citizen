@@ -1,0 +1,138 @@
+{
+  "name": "Citizen",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "NUMERO_CNV": {
+      "type": "number",
+      "required": true
+    },
+    "TIPO_DOC_MADRE": {
+      "type": "string"
+    },
+    "NUMERO_DOC_MADRE": {
+      "type": "string"
+    },
+        "PRIMER_APELLIDO_MADRE": {
+      "type": "string"
+    },
+        "SEGUNDO_APELLIDO_MADRE":{
+      "type": "string"
+    },
+        "PRENOMBRES_MADRE":{
+      "type": "string"
+    },
+        "SEXO_NACIDO":{
+      "type": "string"
+    },
+        "FECHA_NACIDO":{
+      "type": "string"
+    },
+        "HORA_NACIDO":{
+      "type": "string"
+    },
+        "PESO_NACIDO":{
+      "type": "string"
+    },
+        "TALLA_NACIDO":{
+      "type": "string"
+    },
+        "APGAR_UNO_NACIDO":{
+      "type": "string"
+    },
+        "APGAR_CINCO_NACIDO":{
+      "type": "string"
+    },
+        "ETNIA_NACIDO":{
+      "type": "string"
+    },
+        "NU_NACIDO_PERIM_CEFALICO":{
+      "type": "string"
+    },
+        "NU_NACIDO_PERIM_TORACICO":{
+      "type": "string"
+    },
+        "NU_TEMPERATURA":{
+      "type": "string"
+    },
+        "CO_RESULTADO_EF":{
+      "type": "string"
+    },
+        "NU_EDAD_EXAMEN_FISICO":{
+      "type": "string"
+    },
+        "CO_UM_EDAD":{
+      "type": "string"
+    },
+        "DURACION_EMBARAZO_PARTO":{
+      "type": "string"
+    },
+        "ATIENDE_PARTO":{
+      "type": "string"
+    },
+        "CONDICION_PARTO":{
+      "type": "string"
+    },
+        "TIPO_PARTO":{
+      "type": "string"
+    },
+        "FINANCIADOR_PARTO":{
+      "type": "string"
+    },
+        "CO_POSICION_PARTO": {
+      "type": "string"
+    },
+        "IN_PARTOGRAMA":{
+      "type": "string"
+    },
+        "IN_ACOMPANA_PARTO":{
+      "type": "string"
+    },
+        "CO_DURACION_PARTO":{
+      "type": "string"
+    },
+        "IN_EPISIOTOMIA_PARTO":{
+      "type": "string"
+    },
+        "IN_DESGARRO_PARTO": {
+      "type": "string"
+    },
+        "CO_ALUMBRAMIENTO_PARTO": {
+      "type": "string"
+    },
+        "IN_PLACENTA_PARTO":{
+      "type": "string"
+    },
+        "IN_EESS_PROCEDENCIA": {
+      "type": "string"
+    },
+        "CO_EESS_PROCENDENCIA":{
+      "type": "string"
+    },
+        "CODIGO_LOCAL":{
+      "type": "string"
+    },
+        "CODIGO_RENAES": {
+      "type": "string"
+    },
+        "CODIGO_OPERACION":{
+      "type": "string"
+    },
+        "CREATE_BY": {
+      "type": "string"
+    },
+        "created":{
+      "type": "string"
+    },
+        "modified":{
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
