@@ -1,11 +1,8 @@
 {
   "name": "citizen",
   "version": "1.0.0",
-  "main": "server/server.js",
   "scripts": {
-    "lint": "eslint .",
-    "start": "node server/server.js",
-    "posttest": "npm run lint && nsp check"
+    "start": "node server/server.js"
   },
   "dependencies": {
     "compression": "^1.0.3",
@@ -23,10 +20,6 @@
     "eslint": "^2.13.1",
     "eslint-config-loopback": "^4.0.0",
     "nsp": "^2.1.0"
-  },
-  "repository": {
-    "type": "",
-    "url": ""
   },
   "license": "UNLICENSED",
   "description": "citizen"

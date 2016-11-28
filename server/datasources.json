@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "cnvDS": {
-    "host": "localhost",
+    "host": "ec2-54-163-226-155.compute-1.amazonaws.com",
     "port": 5432,
-    "url": "",
-    "database": "citizen_db",
-    "password": "postgres",
+    "url": "postgres://egeylllgwnglzn:hfynEB5QlT6VoL-2ct2swhNK6n@ec2-54-163-226-155.compute-1.amazonaws.com:5432/d9ghh154rtum36",
+    "database": "d9ghh154rtum36",
+    "password": "hfynEB5QlT6VoL-2ct2swhNK6n",
     "name": "cnvDS",
-    "user": "postgres",
+    "user": "egeylllgwnglzn",
     "connector": "postgresql"
   }
 }
